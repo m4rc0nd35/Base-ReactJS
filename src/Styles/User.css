@@ -1,0 +1,36 @@
+.admin-tag {
+    background: rgb(29, 114, 194) !important;
+    color: white !important;
+}
+
+.enabled-tag {
+    background: rgb(36, 155, 77) !important;
+    color: white !important;
+}
+
+.disabled-tag {
+    background: rgb(166, 11, 11) !important;
+    color: white !important;
+}
+
+.p-button.p-button-danger,
+.p-buttonset.p-button-danger>.p-button,
+.p-splitbutton.p-button-danger>.p-button,
+.p-fileupload-choose.p-button-danger {
+    color: #f1f1f1;
+    background: #c71b1b;
+    border: 1px solid #b73737;
+}
+
+.p-button.p-button-danger:enabled:hover,
+.p-button.p-button-danger:not(button):not(a):not(.p-disabled):hover,
+.p-buttonset.p-button-danger>.p-button:enabled:hover,
+.p-buttonset.p-button-danger>.p-button:not(button):not(a):not(.p-disabled):hover,
+.p-splitbutton.p-button-danger>.p-button:enabled:hover,
+.p-splitbutton.p-button-danger>.p-button:not(button):not(a):not(.p-disabled):hover,
+.p-fileupload-choose.p-button-danger:enabled:hover,
+.p-fileupload-choose.p-button-danger:not(button):not(a):not(.p-disabled):hover {
+    background: #d10d4e;
+    color: #fffafa;
+    border-color: #6d1532;
+}

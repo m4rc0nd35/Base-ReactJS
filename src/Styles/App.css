@@ -1,0 +1,11 @@
+.container-auth {
+  display: grid;
+  width: 320px;
+  height: 420px;
+  align-content: center;
+  justify-content: center;
+}
+
+.react-icons {
+  margin-right: 10px;
+}
